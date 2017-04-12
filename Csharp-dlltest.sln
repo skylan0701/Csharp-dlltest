@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp-dlltest", "Csharp-dl
 		{4159479E-C128-48EF-9A30-D1CD6D25D308} = {4159479E-C128-48EF-9A30-D1CD6D25D308}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlltest", "..\dlltest\dlltest\dlltest.vcxproj", "{4159479E-C128-48EF-9A30-D1CD6D25D308}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlltest", "dlltest\dlltest\dlltest.vcxproj", "{4159479E-C128-48EF-9A30-D1CD6D25D308}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
