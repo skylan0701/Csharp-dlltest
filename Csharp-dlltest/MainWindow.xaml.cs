@@ -22,11 +22,11 @@ namespace Csharp_dlltest
     /// </summary>
     public partial class MainWindow : Window
     {
-        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\dlltest\Debug\dlltest.dll", EntryPoint = "my_send")]
+        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\Csharp-dlltest\x64\Release\dlltest.dll", EntryPoint = "my_send")]
         extern static int my_send(string filename);
-        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\dlltest\Debug\dlltest.dll", EntryPoint = "my_recv")]
+        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\Csharp-dlltest\x64\Release\dlltest.dll", EntryPoint = "my_recv")]
         extern static int my_recv(ref int flag); 
-        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\dlltest\Debug\dlltest.dll", EntryPoint = "luyin")]
+        [DllImport(@"C:\Users\sky\Documents\Visual Studio 2015\Projects\Csharp-dlltest\x64\Release\dlltest.dll", EntryPoint = "luyin")]
         extern static int luyin(ref int flag);
         public Thread tsend,trecv;
         public Thread watchdog;
